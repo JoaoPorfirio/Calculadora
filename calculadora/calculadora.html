@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="overflow: hidden">
+    <script src="Contas.js"></script>
+    <div id="telaprin">
+      <!--botão de abrir -->
+      <input
+        class="animate-down"
+        src="/buttons/buttonstart.svg"
+        type="image"
+        id="abrir"
+        onclick="Mostrar()"
+      />
+      <!-------------------------------------------------------------------------------------------------->
+      <div id="produtores">
+        <aside id="aside1">
+          <header><h4>DESENVOLVEDORES</h4></header>
+        </aside>
+        <aside id="aside2">
+          <a
+            class="insta1"
+            href="https://www.instagram.com/joao_porfirio_/"
+            target="_blanc"
+            >Porfírio</a
+          >
+          <a
+            class="insta2"
+            href="https://www.instagram.com/brunokreuch/"
+            target="_blanc"
+            >Bruno</a
+          >
+          <a
+            class="insta3"
+            href="https://www.instagram.com/jocswillis/"
+            target="_blanc"
+            >Willian</a
+          >
+        </aside>
+      </div>
+      <div id="MA" class="MAA">
+        <!--corpo e visor-->
+        <form name="form">
+          <input type="text" name="textbox" id="v1" />
+          <input type="text" name="h" id="v2" />
+        </form>
+        <img class="corpo" src="/body/body.svg" alt="" />
+        <img class="resultado" src="/body/result.svg" alt="" />
+        <img class="resultado2" src="/body/result.svg" alt="" />
+        <!--botão de fechar -->
+        <input
+          id="fechar"
+          src="/buttons/buttonback.svg"
+          type="image"
+          class="SEI"
+          onclick="Fechar()"
+        />
+        <!-------------------------------------------------------------------------------------------------->
+
+        <!------------------------------------------------------------------------------------------------------->
+        <!--sistemas de            multiplicação-->
+        <input
+          class="clean"
+          src="/operations/clean.svg"
+          type="image"
+          value="clean"
+          onclick="clean()"
+        />
+        <input
+          class="divisao"
+          src="/operations/divisao.svg"
+          type="image"
+          value="÷"
+          onclick='insert(" / ")'
+        />
+        <input
+          class="menos"
+          src="/operations/menos.svg"
+          type="image"
+          value="-"
+          onclick='insert(" - ")'
+        />
+        <input
+          class="mult"
+          src="/operations/multiplicacao.svg"
+          type="image"
+          value="x"
+          onclick='insert(" * ")'
+        />
+        <input
+          class="mais"
+          src="/operations/mais.svg"
+          type="image"
+          value="+"
+          onclick='insert(" + ")'
+        />
+        <input
+          class="igual"
+          src="/operations/igual.svg"
+          type="image"
+          value="="
+          onclick="total()"
+        />
+        <!--------------------------------------------------------------------------------------------------------->
+        <!--Virgula-->
+        <input
+          class="virgula"
+          src="/operations/virgula.svg"
+          type="image"
+          value=".   "
+          onclick='insert(".")    '
+        />
+        <!--------------------------------------------------------------------------------------------------------->
+        <!--numeros-->
+        <input
+          class="valor0"
+          src="/figure/00.svg"
+          type="image"
+          value="0"
+          onclick="insert   (0)"
+        />
+        <input
+          class="valor1"
+          src="/figure/01.svg"
+          type="image"
+          value="1"
+          onclick="insert   (1)"
+        />
+        <input
+          class="valor2"
+          src="/figure/02.svg"
+          type="image"
+          value="2"
+          onclick="insert   (2)"
+        />
+        <input
+          class="valor3"
+          src="/figure/03.svg"
+          type="image"
+          value="3"
+          onclick="insert   (3)"
+        />
+        <input
+          class="valor4"
+          src="/figure/04.svg"
+          type="image"
+          value="4"
+          onclick="insert   (4)"
+        />
+        <input
+          class="valor5"
+          src="/figure/05.svg"
+          type="image"
+          value="5"
+          onclick="insert   (5)"
+        />
+        <input
+          class="valor6"
+          src="/figure/06.svg"
+          type="image"
+          value="6"
+          onclick="insert   (6)"
+        />
+        <input
+          class="valor7"
+          src="/figure/07.svg"
+          type="image"
+          value="7"
+          onclick="insert   (7)"
+        />
+        <input
+          class="valor8"
+          src="/figure/08.svg"
+          type="image"
+          value="8"
+          onclick="insert   (8)"
+        />
+        <input
+          class="valor9"
+          src="/figure/09.svg"
+          type="image"
+          value="9"
+          onclick="insert   (9)"
+        />
+        <!-------------------------------------------------------------------------------------------------------->
+      </div>
+    </div>
+  </body>
+</html>

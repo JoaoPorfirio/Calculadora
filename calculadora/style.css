@@ -1,0 +1,357 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+aside {
+    position: absolute;
+}
+
+#aside1{
+    margin-top: 19px;
+    left: 570px;
+    font-size: 29px;
+}
+
+#aside2 {
+
+    margin-top: 80px;
+    left: 660px;
+}
+
+.insta1{
+    position: absolute;
+    left: 150px;
+    width: 110px;
+    height: 30px;
+}
+.insta2 {
+    position: absolute;
+    right: 120.5px;
+    width: 110px;
+    height: 30px;
+}
+
+.insta3 {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: -40px;
+    animation-delay: 5s;
+}
+
+header{
+    margin-top: 5px;
+    position: absolute;
+    color: white;
+}
+
+aside header h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.animate-down{
+    animation-name: down;
+    animation-duration: 300ms;
+
+}
+
+@keyframes down {
+    from {
+      opacity: 0;
+      transform: translateY(-16px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+
+aside a {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid #F62222;
+    border-radius: 40px;
+    line-height: 30px;
+    animation-name: down;
+    animation-delay: 5s;
+    
+}
+
+
+
+#telaprin {
+    background: #750D0D;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+
+}
+#abrir{
+    position: absolute;
+    Width: 237px;
+    Height: 70px;
+    Top: 327px;
+    Left: 564px;
+    border-radius: 273px;
+}
+
+#fechar{
+    background-color:#530909;
+    position: absolute;
+    width: 69px;
+    height: 25px;
+    left: 111px;
+    top: 67px;
+}
+
+#MA {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #750D0D, #530909 );
+}
+.MAA {
+    animation: backfly 2s;
+    display: block;
+}
+@keyframes fly {
+    
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+    
+    
+}
+@keyframes backfly {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(100%);
+    }
+    
+}
+
+
+
+.resultado {
+    position: absolute;
+    z-index: 1;
+    width: 360px;
+    height: 102px;
+    left: 503px;
+    top: 110px;
+}
+
+.resultado2 {
+    position: absolute;
+    z-index: 2;
+    width: 360px;
+    height: 102px;
+    left: 503px;
+    top: 110px;
+    opacity: 0;
+}
+
+
+.corpo{
+    position: absolute;
+    z-index: 0;
+    width: 360px;
+    height: 500px;
+    left: 503px;
+    top: 113px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25), 0px 9px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    
+}
+#v1{
+    position: absolute;
+    z-index: 2;
+    width: 270px;
+    height: 60px;
+    left: 540px;
+    top: 145px;
+    border-radius: 18px;
+    border: none;
+    background: #585858;
+    font-size: 29px;
+    text-align-last: right;
+
+}
+#v2{
+    background: rgba(255, 0, 0, 0);
+    position: absolute;
+    z-index: 2;
+    width: 270px;
+    height: 40px;
+    left: 540px;
+    top: 110px;
+    border-radius: 18px;
+    border: none;
+    
+    font-size: 20px;
+    text-align-last: right;
+
+}
+.clean{
+
+    position: absolute;
+    width: 218px;
+    height: 66px;
+    left: 531px;
+    top: 228px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 33.5px;
+      
+}
+.divisao{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 768px;
+    top: 228px;
+}
+
+.igual{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 768px;
+    top: 532px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+
+    
+}
+
+.menos{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 768px;
+    top: 380px;
+
+
+}
+.mais{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 768px;
+    top: 456px;
+}
+.virgula{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 683px;
+    top: 532px;  
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 6px 8px rgba(0, 0, 0, 0.25); 
+    border-radius: 100%;
+}
+.mult{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 768px;
+    top: 304px;
+}
+
+.valor0{
+    position: absolute;
+    width: 142px;
+    height: 65px;
+    left: 531px;
+    top: 532px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    
+}
+.valor1{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 531px;
+    top: 456px;
+
+}
+.valor2{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 607px;
+    top: 456px;
+
+}
+.valor3{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 683px;
+    top: 456px;
+
+}
+.valor4{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 531px;
+    top: 380px;
+
+}
+.valor5{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 607px;
+    top: 380px;
+
+}
+.valor6{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 683px;
+    top: 380px;
+}
+.valor7{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 531px;
+    top: 304px;
+}
+.valor8{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 607px;
+    top: 304px;
+}
+.valor9{
+    position: absolute;
+    width: 66px;
+    height: 65px;
+    left: 683px;
+    top: 304px;
+}
+
+
+
+input{
+    outline: none;
+}
